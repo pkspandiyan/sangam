@@ -1,0 +1,72 @@
+{
+  "name": "myweb",
+  "description": "To explore CMS",
+  "version": "0.0.0",
+  "author": "Sundar",
+  "license": "Copyright",
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "NODE_ENV=production gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkspandiyan/myweb.git"
+  },
+  "keywords": [
+    "simplajs"
+  ],
+  "bugs": {
+    "url": "https://github.com/pkspandiyan/myweb/issues"
+  },
+  "homepage": "https://github.com/pkspandiyan/myweb#readme",
+  "browserslist": [
+    "last 2 Chrome versions",
+    "last 2 Safari versions",
+    "last 2 ios versions",
+    "last 2 Edge versions",
+    "last 2 Firefox versions"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^7.1.5",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "eslint-plugin-html": "^3.2.2",
+    "gulp": "gulpjs/gulp.git#4.0",
+    "gulp-cached": "^1.1.1",
+    "gulp-eslint": "^4.0.0",
+    "gulp-filter": "^5.0.1",
+    "gulp-gray-matter": "^3.0.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-if": "^2.0.2",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-inline-source": "^3.1.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-nunjucks-render": "^2.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-process-inline": "^0.1.4",
+    "gulp-rollup-file": "^0.1.5",
+    "gulp-size": "^2.1.0",
+    "lazypipe": "^1.0.1",
+    "postcss-custom-media": "^6.0.0",
+    "postcss-normalize": "^4.0.0",
+    "postcss-plugin-context": "^2.0.0",
+    "postcss-responsive-type": "^1.0.0",
+    "rollup-plugin-buble": "^0.16.0",
+    "rollup-plugin-commonjs": "^8.2.4",
+    "rollup-plugin-eslint": "^4.0.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "dependencies": {
+    "client-oauth2": "^4.2.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "fontfaceobserver": "^2.0.5",
+    "prismjs": "^1.5.1",
+    "simpla": "^3.0.1"
+  }
+}
